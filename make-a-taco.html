@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make your own taco</title>
+<style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: rgb(209, 209, 209)">
+    <h1 style="text-align: center">Your very own Taco</h1>
+    <nav>
+      <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #2c2b2b;
+}
+</style>
+  
+</head>
+<body>
+  <ul>
+  <li><a href="Index.html">Home</a></li>
+  <li><a href="make-a-taco.html">Taco maker</a></li>
+  <li><a href="my-taco-recipe.html">Secret formula</a></li>
+</ul>
+  <h1>Learn how to make a taco today!</h1>
+
+<p>Click this link to view a short tutorial on how to make a taco</p>
+<p><a href="https://youtu.be/6W_S9VMneSM" target="iframe_a">Youtube.com</a></p>
+
+
+    <iframe src="https://www.youtube.com/embed/6W_S9VMneSM" width="50%" height="350px" frameborder="0" 
+    title="This is an IFrame that displays somebody making a taco"></iframe>
+
+  <form name="Taco-Maker" id="travel" method="get">
+
+    <fieldset form="taco">
+
+      <legend>What meat will be on your taco?</legend>
+
+
+      <input type="checkbox" name="beef" id="beef" value="beef" />
+      <label for="beef">Beef</label>
+      <br />
+
+      <input type="checkbox" name="Chicken" id="Chicken" value="Chicken" />
+      <label for="Chicken">Chicken</label>
+      <br />
+
+      <input type="checkbox" name="Pork" id="Pork" value="Pork" />
+      <label for="Pork">Pork</label>
+      <br />
+      <br />
+
+      <label>Other </label>
+      <input type="text" name="itemSuggestion" id="item-suggestion" />
+    </fieldset>
+    <br />
+
+
+    <fieldset form="taco">
+      <legend>choose a drink for the side</legend>
+
+ 
+      <input type="radio" name="Drink" id="Milk" value="Milk" />
+      <label for="Milk">Milk</label>
+      <br />
+
+      <input type="radio" name="Drink" id="Water" value="Water" />
+      <label for="Water">Water</label>
+      <br />
+
+      <input type="radio" name="Drink" id="Pepsi" value="Pepsi" />
+      <label for="Pepsi">Pepsi</label>
+      <br />
+
+      <input type="radio" name="Drink" id="Coca-cola" value="Coca-cola" />
+      <label for="Coca-cola">Coca-cola</label>
+      <br />
+
+      <input type="radio" name="Drink" id="None" value="None" />
+      <label for="None">None of the above</label>
+    </fieldset>
+    <br />
+
+
+    <label for="Taco-count">How many tacos will you be making? [required]</label>
+    <select name="tacoSelect" id="Taco" required>
+
+      <optgroup label="Taco-count">
+        <option value="one ">1</option>
+        <option value="two">2</option>
+        <option value="three or more">3&lt;</option>
+      </optgroup>
+    </select>
+    <br />
+    <br />
+
+    <label for="comments">Additional Comments</label>
+    <textarea name="additionalComments" id="comments" rows="10" cols="50"></textarea>
+
+    <br />
+    <br />
+
+    <input type="reset" name="clearForm" id="clear" value="Click This to Clear All Inputs" />
+
+    <br />
+    <br />
+
+    <input type="submit" name="submitButton" id="submit" value="Click This to Finish your taco" />
+  </form>
+
+
+
+</body>
+</html>
